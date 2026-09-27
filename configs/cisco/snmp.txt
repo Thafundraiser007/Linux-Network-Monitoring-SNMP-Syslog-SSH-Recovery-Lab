@@ -1,0 +1,6 @@
+# Cisco IOS - SNMP configuration (Router1)
+# Lab-only read-only community string. Not a production secret.
+
+snmp-server community SNMPLab RO
+snmp-server location "EVE-NG Lab"
+snmp-server contact "Network Lab"

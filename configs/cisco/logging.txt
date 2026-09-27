@@ -1,0 +1,5 @@
+# Cisco IOS - centralized logging configuration (Router1)
+
+logging host 192.168.50.2
+logging trap info
+! "info" is IOS's accepted abbreviation for the informational severity level

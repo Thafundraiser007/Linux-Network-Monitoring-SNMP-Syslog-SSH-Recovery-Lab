@@ -1,0 +1,10 @@
+# Cisco IOS - SSH configuration (Router1)
+# Password intentionally omitted - see README Security Considerations.
+
+ip domain-name snmp-lab.local
+username admin privilege 15 secret <redacted>
+crypto key generate rsa modulus 2048
+ip ssh version 2
+line vty 0 4
+ login local
+ transport input ssh

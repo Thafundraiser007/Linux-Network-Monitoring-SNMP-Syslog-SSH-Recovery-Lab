@@ -1,0 +1,5 @@
+# /etc/rsyslog.conf - relevant lines only
+# Enables the UDP syslog listener rsyslog needs to receive router messages
+
+module(load="imudp")
+input(type="imudp" port="514")
